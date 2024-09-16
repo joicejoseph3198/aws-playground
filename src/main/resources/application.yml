@@ -1,0 +1,12 @@
+spring.application.name: aws-playground
+
+aws.accessKeyId: ${AWS_ACCESS_KEY:accessKeyPlaceHolder}
+aws.secretKey: ${AWS_SECRET_KEY:secretKeyPlaceHolder}
+aws.region: ${AWS_REGION:ap-south-1}
+aws.s3.bucket: ${IMAGE_BUCKET:bucketPlaceHolder}
+spring.servlet.multipart.max-file-size: 10MB
+spring.servlet.multipart.max-request-size: 10MB
+
+
+springdoc.api-docs.path: /api-docs
+springdoc.swagger-ui.path: /swagger-ui.html
